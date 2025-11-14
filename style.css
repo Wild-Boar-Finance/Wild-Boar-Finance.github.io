@@ -1,0 +1,1006 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+
+
+body {
+    font-family: "Mulish",Roboto,Helvetica Neue,Arial,Noto Sans,Liberation Sans,sans-serif;
+    color: #151514;
+    text-align: left;
+    background-color: #F3F2E7;
+}
+
+.wbheader {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 20px 16px 20px;
+    border-bottom: solid 1px #D3D0B9;
+    background-color: #F9F8F2;
+}
+
+.wbheader-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    flex: 1;
+}
+
+.wbheader-content-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
+
+.wbheader-content-logo img {
+    height: 29px;
+}
+
+.logo-disc {
+    color: rgba(23, 23, 21, 1);
+    font-family: Mulish;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 110%;
+    text-align: left;
+    margin: 0;
+}
+
+.wbheader-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 25px 10px 20px;
+    border-radius: 12px;
+    background: #9772D1;
+    cursor: pointer;
+}
+
+.wb-btntext {
+    color: #F9F8F2;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 110%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 0;
+}
+
+.wbreview {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 56px;
+    padding: 60px 20px 56px 20px;
+    background-color: #F9F8F2;
+}
+
+.wbreview-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+    max-width: 1200px;
+    flex: 1;
+    width: 100%;
+}
+
+.wbtitle {
+    font-family: Mulish;
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: -2.5%;
+    text-align: left;
+    margin: 0;
+    color: #151514;
+}
+
+.wbtxt {
+    font-family: Mulish;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 0;
+    color: #585855;
+}
+
+.wbtxt-black {
+    font-family: Mulish;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 0;
+    color: #151514;
+}
+
+.wbtxt-black-link {
+    font-family: Mulish;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 0;
+    color: #151514;
+    word-break: break-all;
+}
+
+.wbreview-advantages {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    max-width: 1200px;
+    flex: 1;
+    width: 100%;
+    height: 86px;
+}
+
+.wbreview-advantages-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 0px 10px 0px 10px;
+    box-sizing: border-box;
+    height: 57px;
+    border-left: solid 1px #D3D0B9;
+    width: 100%;
+}
+
+.wbreview-advantages-item-last {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 0px 10px 0px 10px;
+    box-sizing: border-box;
+    height: 57px;
+    border-left: solid 1px #D3D0B9;
+    border-right: solid 1px #D3D0B9;
+    width: 100%;
+}
+
+.wbreview-advantages-inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+    padding: 30px 10px 30px 10px;
+
+    box-sizing: border-box;
+    border-bottom: solid 1px #D3D0B9;
+    border-top: solid 1px #D3D0B9;
+    width: 100%;
+}
+
+.advantages-txt {
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 110%;
+    letter-spacing: -3%;
+    text-align: left;
+    color: #151514;
+    margin: 0;
+}
+
+@media screen and (max-width: 1012px) {
+    .advantages-txt {
+        font-size: 20px;
+    }
+}
+
+.advantages-txt span {
+    color: #8E65CE;
+}
+
+.wbapi-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 20px;
+    background: #F3F2E7;
+}
+
+.wbapi-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 16px;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.wbapi-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 20px;
+    padding: 24px;
+    width: 263px;
+    height: 335px;
+    border-radius: 20px;
+    background-color: #F9F8F2;
+    position: sticky;
+    top: 20px;
+}
+
+.wbapi-sabmenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 12px;
+}
+
+.wbapi-sabmenu-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 8px;
+}
+
+.wbapi-sabmenu-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 8px 8px 12px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+
+
+.wbapi-sabmenu-item:hover {
+    background:rgba(243, 242, 231, 1);
+}
+
+.wbapi-sabmenu-item-txt {
+    color: #151514;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 110%;
+    text-align: left;
+    margin: 0;
+}
+
+.wbapi-sabmenu-item.active {
+    background: #8E65CE; 
+}
+
+.wbapi-sabmenu-item.active .wbapi-sabmenu-item-txt {
+        color: #F9F8F2;
+}
+
+
+
+.wbapi-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 24px;
+    border-radius: 20px;
+    background-color: #F9F8F2;
+    width: 100%;
+}
+
+.wbapi-content-start1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.wbapi-content-txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.wbtitle2 {
+    font-family: Mulish;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 105%;
+    text-align: left;
+    margin: 0;
+    color: #151514;
+}
+
+.wb-list {
+    margin: 0;
+    padding-left: 0;
+    list-style-position: inside;
+}
+
+.wb-list-item {
+    font-family: Mulish;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 0;
+    color: #585855;
+    padding-bottom: 12px;
+}
+
+.wb-list-item2 {
+    font-family: Mulish;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 0;
+    color: #585855;
+    padding-bottom: 8px;
+}
+
+.start1-badges {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 4px;
+}
+
+.wb-badge {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 4px 12px 4px 12px;
+    border-radius: 8px;
+    background-color: #F2DC16;
+}
+
+.badge-txt {
+    font-family: Mulish;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 110%;
+    text-align: left;
+    margin: 0;
+    color: #151514;
+}
+
+.wbfooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px 20px 20px;
+}
+
+.wbtxt-2 {
+    font-family: Mulish;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 130%;
+    text-align: left;
+    margin: 0;
+    color: #585855;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.catalog-indexes {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 16px;
+    padding-top: 24px;
+}
+
+.index-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 0.5px solid #D3D0B9;
+    border-radius: 16px;
+    background: #F3F2E7;
+    max-width: 404.5px;
+    gap: 32px;
+}
+
+.index-item-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 24px;
+}
+
+.index-item-txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.index-item-badge {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10;
+    padding: 4px 12px 4px 12px;
+    border: 1px dashed #D3D0B9;
+    border-radius: 8px;
+    background: #F9F8F2;
+}
+
+.index-badge-txt {
+    font-family: Gilroy;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 110%;
+    text-align: left;
+    margin: 0;
+    color: #585855;
+}
+
+.index-item-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px 16px 32px;
+    box-sizing: border-box;
+    border: 1px solid #8E65CE;
+    border-radius: 20px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+
+    color: #8E65CE;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 110%;
+    text-align: left;
+    margin: 0;
+}
+
+
+.index-item-btn:hover {
+    background-color: #8E65CE;
+    color: #F9F8F2;
+} 
+
+
+.wbapi-content-defi {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 24px;
+    border-radius: 20px;
+    background-color: #F9F8F2;
+    width: 100%;
+    gap: 24px;
+}
+
+.defiindex-txt-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.defi_altcoin-stat {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 12px;
+}
+
+.defi_altcoin-stat-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 12px;
+}
+
+.defi_altcoin-stat-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 12px;
+    padding: 16px;
+    box-sizing: border-box;
+    border: 0.5px solid #D3D0B9;
+    border-radius: 16px;
+    background: #F3F2E7;
+    flex: 1;
+}
+
+.defi_altcoin-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 0.5px solid #D3D0B9;
+    border-radius: 16px;
+    background: #F3F2E7;
+}
+
+.defi_altcoin-info1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 16px;
+}
+
+.info1-badgearea {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 8px;
+}
+
+.info1-badges {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 4px;
+}
+
+.defi_altcoin-info2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 12px;
+}
+
+.info2-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 12px;
+    gap: 12px;
+    flex: 1;
+    box-sizing: border-box;
+    border: 0.5px solid #D3D0B9;
+    border-radius: 16px;
+    background: #F9F8F2;
+}
+
+.defi_altcoin-info3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 8px;
+}
+
+.wb-table-container {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.wb-custom-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.wb-custom-table th {
+  background-color: #E9E7D8;
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #d3d0b9;
+}
+
+.wb-custom-table td {
+  padding: 12px;
+  border-bottom: 1px solid #d3d0b9;
+}
+
+.defi_altcoin-info4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 8px;
+}
+
+.defi_altcoin-info5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 8px;
+}
+
+.info5-code {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    gap: 10px;
+    padding: 16px;
+    border-radius: 16px;
+    background: #E9E7D8;
+}
+
+.defi_altcoin-info6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 16px;
+    padding: 16px;
+    border-radius: 16px;
+    background: #E9E7D8;
+}
+
+.defi_altcoin-info6-tabs {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8px;
+    overflow: auto;
+}
+
+.defi-info6-tab {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 12px;
+    background: #F3F2E7;
+
+    color: #171715;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 110%;
+    letter-spacing: 0%;
+    text-align: left;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.defi-info6-tab:hover {
+    background: #D3D0B9;
+}
+
+.defi-info6-tab.active {
+    background: #8E65CE;
+    color: #F9F8F2;
+}
+
+.defi_altcoin-info6-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 8px;
+}
+
+.defi-curl-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 8px;
+}
+
+.defi-curl-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 20px 12px 20px;
+    border-radius: 12px;
+    background: #F3F2E7;
+}
+
+.defi_altcoin-info7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 8px;
+}
+
+.defi_altcoin-compliance {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 16px;
+}
+
+.defi_altcoin-changes {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 16px;
+}
+
+.defi_altcoin-changes-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 10px;
+    padding: 12px 20px 12px 20px;
+    box-sizing: border-box;
+    border: 0.5px solid #D3D0B9;
+    border-radius: 12px;
+    background: #F3F2E7;
+}
+
+
+.wbapi-mob-menu {
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    padding: 16px;
+    background: #F3F2E7;
+}
+
+.mob-menu-dropdown {
+    display: none;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 16px;
+    border: 1px solid #D3D0B9;
+    border-radius: 16px;
+    background: #F9F8F2;
+    cursor: pointer;
+}
+
+.wbapi-menu-mob {
+    display: none;
+}
+
+.menu-icon {
+  transition: transform 0.3s ease;
+}
+
+.menu-icon.rotated {
+  transform: rotate(180deg);
+}
+
+.wbapi-mob-menu.sticky {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  z-index: 1000 !important;
+  border-radius: 0 0 16px 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+.wbapi-mob-menu-sticky-trigger {
+  background: transparent; 
+}
+
+@media screen and (max-width: 960px) {
+    .wbapi-mob-menu {
+        display: flex;
+        gap: 8px;
+        z-index: 100;
+
+    }
+    
+    .mob-menu-dropdown {
+        display: flex;
+    }
+
+    .wbapi-menu-mob {
+        display: none;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: stretch;
+        gap: 20px;
+        padding: 24px;
+        border-radius: 20px;
+        background-color: #F9F8F2;
+        border: 1px solid #D3D0B9;
+    }
+
+    .wbheader-content-logo img {
+        height: 18px;
+    }
+
+    .logo-disc {
+        display: none;
+    }
+
+    .wbheader-btn {
+        padding: 6px 14px 6px 11px;
+        border-radius: 8px;
+    }
+
+    .wbheader-btn img {
+        height: 12px;
+    }
+
+    .wb-btntext {
+        font-size: 12px;
+    }
+
+    .wbreview {
+        gap: 24px;
+        padding: 32px 16px 20px 16px;
+    }
+
+    .wbreview-text {
+        gap: 16px;
+    }
+
+    .wbtitle {
+        font-size: 32px
+    }
+
+    .wbreview-advantages {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: stretch;
+        gap: 12px;
+    }
+
+    .wbreview-advantages-item {
+        gap: 10px;
+        padding: 0px 10px 0px 10px;
+        border-right: solid 1px #D3D0B9;
+        border-left: solid 1px #D3D0B9;
+    }
+
+    .wbreview-advantages-inner {
+        gap: 10px;
+        padding: 24px 10px 24px 10px;
+        border-top: solid 1px #D3D0B9;
+        border-bottom: none;
+    }
+
+    .wbreview-advantages-item-last .wbreview-advantages-inner {
+        border-bottom: solid 1px #D3D0B9;
+    }
+
+    .wbapi-container {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: stretch;
+        gap: 20px;
+        padding: 0px 16px 20px 16px;
+    }
+
+    .wbapi-main {
+        flex-direction: column;
+        gap: 8px;
+        width: 100%;
+    }
+
+    .wbapi-menu {
+        display: none;
+    }
+
+    .wbapi-content {
+        width: auto;
+        gap: 20px;
+        padding: 16px;
+        border-radius: 16px;
+    }
+
+    .wbapi-content-txt {
+        gap: 20px;
+    }
+
+    .wbtitle2 {
+        font-size: 24px;
+    }
+
+    .catalog-indexes {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: stretch;
+        gap: 8px;
+        padding-top: 12px;
+    }
+
+    .index-item {
+        max-width: none;
+    }
+
+    .wbapi-content-defi {
+        gap: 20px;
+        padding: 16px;
+        width: auto;
+    }
+
+    .defi_altcoin-stat {
+        gap: 8px;
+    }
+
+    .defi_altcoin-stat-items {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .defi_altcoin-stat-item {
+        gap: 8;
+        padding: 12px;
+    }
+
+    .defi_altcoin-info {
+        padding: 12px;
+    }
+
+    .info1-badgearea {
+        flex-direction: column;
+    }
+
+    .defi_altcoin-info2 {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .info2-card {
+        gap: 8px;
+    }
+}
